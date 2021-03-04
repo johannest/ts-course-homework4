@@ -1,3 +1,3 @@
-# ts-course-homework3
+# ts-course-homework4
 
 Inventory app
