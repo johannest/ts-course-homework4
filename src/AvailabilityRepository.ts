@@ -1,4 +1,4 @@
-import * as t from "./my-own-validation";
+import * as t from '../node_modules/my-own-validation';
 import {JsonRepository} from "./JsonRepository";
 import {Availability, AvailabilityCodec} from "./Availability";
 import {Product} from "./Product"

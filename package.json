@@ -12,15 +12,22 @@
         "prettier:fix": "prettier --write ."
     },
     "dependencies": {
+        "@types/lodash": "^4.14.165",
+        "@types/my-own-validation": "file:my-own-validation/my-own-validation-1.0.0.tgz",
         "babel-polyfill": "^6.26.0",
         "core-js": "^3.8.3",
         "express": "^4.17.1",
-        "lodash": "^4.17.20"
+        "lodash": "^4.17.20",
+        "lodash-es": "^4.17.20",
+        "my-own-validation": "file:my-own-validation/my-own-validation-1.0.0.tgz",
+        "whatwg-fetch": "^3.6.2"
     },
     "devDependencies": {
         "@babel/core": "^7.12.10",
         "@babel/preset-env": "^7.12.11",
         "@types/lodash": "^4.14.165",
+        "@types/lodash-es": "^4.17.4",
+        "@types/my-own-validation": "file:my-own-validation/my-own-validation-1.0.0.tgz",
         "babel-loader": "^8.2.2",
         "css-loader": "^5.1.1",
         "html-webpack-plugin": "^5.0.0",
@@ -38,6 +45,6 @@
         "javascript"
     ],
     "browserslist": [
-        "> 1% in FI, ie>=8"
+        "> 0.2% in FI"
     ]
 }

@@ -1,4 +1,4 @@
-import * as t from './my-own-validation'
+import * as t from '../node_modules/my-own-validation'
 
 export abstract class JsonRepository {
 
@@ -8,6 +8,6 @@ export abstract class JsonRepository {
             throw Error("Error when fetching the data!");
         }
         const json = await response.json();
-        return validator(json)
+        return validator(json);
     }
 };

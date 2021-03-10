@@ -1,4 +1,4 @@
-import * as t from "./my-own-validation";
+import * as t from '../node_modules/my-own-validation';
 
 const UIStateCodec = t.object({
     currentPage: t.number,

@@ -1,4 +1,4 @@
-import * as t from "./my-own-validation";
+import * as t from '../node_modules/my-own-validation';
 
 export const AvailabilityCodec = t.object({
     id: t.string,
